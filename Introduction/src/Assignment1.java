@@ -8,6 +8,7 @@ public class Assignment1 {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
+		System.out.println("Adding comments after fresh clone from github");
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
 		System.out.println( driver.findElement(By.id("checkBoxOption1")).isSelected());
